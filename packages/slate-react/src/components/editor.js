@@ -107,7 +107,7 @@ class Editor extends React.Component {
    * @param {Object} props
    */
 
-  componentWillReceiveProps = props => {
+  UNSAFE_componentWillReceiveProps = props => {
     let { schema, stack } = this
 
     // Increment the updates counter as a baseline.
